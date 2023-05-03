@@ -1,0 +1,25 @@
+name: audio_demo
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  just_audio: ^0.9.32
+  just_audio_background: ^0.0.1-beta.9
+  rxdart: ^0.27.7
+  youtube_player_flutter_quill: ^8.2.2
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+#  flutter_lints: 2.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
